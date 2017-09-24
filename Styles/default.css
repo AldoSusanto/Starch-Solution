@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: gotham;
+  src:url(Gotham-Medium.otf);
+}
+
+body{
+  background-color: #fff;
+  padding-top: 80px;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+}
+
+.menuBar{
+  display: initial;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  margin: 0px;
+  box-shadow: 0px 3px 10px #f2f2f2;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 2;
+}
+
+.logo{
+	display:block;
+}
+
+.menu{
+  flex-grow: 1;
+  list-style-type: none;
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  justify-content: space-around;
+}
+
+.menu a{
+  /*border: 3px dashed white; 8c8c8c*/
+  justify-content: flex-end;
+  text-decoration: none;
+  font-style: bold;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-family: gotham;
+  padding: 5px 5px;
+  transition-duration: .4s;
+  border-radius: 12%;
+  cursor:pointer;
+}
+
+.menu li{
+  flex-grow: 1;
+  margin: 10px 5px;
+}
+
+.menu a:hover{
+  font-size: 15px;
+  color: #4ab036;
+  padding-bottom: 10px;
+}
+
+.dropdownMaster{
+  position: relative;
+}
+
+.dropdownContent{
+  display: none;
+  position: absolute;
+  left:5px;
+  top: 25px;
+  background-color: #f9f9f9;
+  width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownContent a{
+	cursor:pointer;
+	margin: 5px 3px;
+	padding: 5px 10px;
+	display:block;
+}
+
+.show{
+  display: block;
+}
+
+/* ---- Footer ---- */
+
+
+.foot{
+	display: block;
+	text-align: center;
+	padding: 16px 0px;
+	vertical-align: middle;
+	background-color: #f2f2f2;
+}
+
+.foot p{
+  line-height: normal;
+  color: #8c8c8c;
+  margin: 10px 0px;
+}
+
+.socialPic{
+	width:20px;
+	height:20px;
+}
+
+
+.facebook{
+	padding:4px;
+	border-radius:50%;
+	transition-duration: .4s;
+	background-color: #bfbfbf;
+}
+
+.facebook:hover{
+	background-color: #8c8c8c;
+}
+
+@media (min-width: 900px){
+	.ourStrat{
+		display: inline-block;
+		justify-content: space-between;
+		flex-direction: row;
+		margin: 0px 30px;
+	}
+
+	.listbar{
+		display: inline-block;
+		vertical-align: top;
+		width: 20%;
+		box-sizing: border-box;
+		margin: 0px 20px;
+	}
+
+	.menuBar{
+	  display: flex;
+	}
+
+	.logo{
+	  flex-grow: 3;
+	  margin-left: 10px;
+	  /*border: 1px solid blue;*/
+	}
+
+	.titlee{
+		margin-top: 115px;
+	}
+}

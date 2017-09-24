@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>About Us</title>
+<link rel="stylesheet" href="Styles/normalize.css">
+<link rel="stylesheet" href="Styles/aboutStyle.css">
+<link rel="stylesheet" href="Styles/coreValues.css">
+</head>
+<body>
+  <div class="viewPort">
+    <div class="menuBar">
+      <div class="logo">
+        <a href="home.html"><img src="Images/logo.png" style="width:400px;height:70px;"></a>
+      </div>
+      <ul class="menu">
+        <li class="dropdownMaster">
+		<a onmouseover="showDropdown()" onmouseout="hideDropdown()" class="dropbtn" href="about.html">About Us</a>
+        <div id="dropdown" class="dropdownContent" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+          <a href="missionAndVision.html">Mission and Vision</a>
+          <a href="coreValues.html">Core Values</a>
+          <a href="principles.html">Principles</a>
+        </div></li>
+        <li><a href="product.html" >Our Products</a></li>
+		<li><a href="" >Quality Standard</a></li>
+        <li><a href="" >CSR</a></li>
+        <li><a href="" >Newsletter</a></li>
+        <li><a href="contact.html" >Contact Us</a></li>
+      </ul>
+    </div>
+
+	<script>
+	function showDropdown(){
+		document.getElementById("dropdown").classList.toggle("show");
+	  }
+
+	  function hideDropdown(){
+		var dropdowns = document.getElementsByClassName("dropdownContent");
+		  var i;
+		  for(i=0; i < dropdowns.length;i++){
+			if(dropdowns[i].classList.contains('show')){
+			  dropdowns[i].classList.remove('show');
+			}
+		  }
+		}
+	</script>
+
+
+  <!---------------------------------------------------------------------------------------------------------------->
+	<main>
+	  <div class="image">
+	    <img src="Images/AboutUsCover.jpg" border="3">
+	  </div>
+
+	  <div class="wholeContent">
+
+	    <div class="aboutButton">
+
+        <div class="aboutUsTitle">
+          <h2>Core Values</h2>
+        </div>
+  		  <ul>
+        <li><a href="about.html" >About Us</a></li>
+  			<li><a href="missionAndVision.html" >Mission and Vision</a></li>
+  			<li><a href="principles.html" >Principles</a></li>
+  		  </ul>
+	    </div>
+
+		<!--
+		<p>CORE VALUES <br /></p>
+		-->
+
+		<div class="content">
+		  <h3>Quality</h3>
+				<p>We love to keep our customer satisfactions at the highest level possible, as a modified starch
+				company, we strongly believe that this could be achieved with providing consistent and highest quality
+				of products.</p>
+			<h3>Integrity</h3>
+				<p>We adhere the ethical code of business conduct with Honesty and Harmony. We respect
+				human rights, environment, and the economy; while synchronously minimizing and eliminating negative
+				externalities from our productions.</p>
+			<h3>Transparency</h3>
+				<p>We believe that transparency breeds trusts from our clients and institutes. Our company
+				is transparent both internally, and externally; It is a value that we want to live by no matter what.</p>
+			<h3>Faithfulness</h3>
+				<p>Faithfulness reflects our commitment towards all our clients. We are devoted, loyal, and
+				true to our own words and statements. By doing this, we believe that our clients will do the same things
+				to Starch Solution.</p>
+			<h3>Fairness</h3>
+				<p>We understand that trust has to be earned, and it is reflected in our expectation for our
+				employees to work and behave responsibly. This is achieved through daily evaluation of
+				achievement and productivity, as well as encouraging proactive problem solving behaviour.</p>
+
+		</div>
+
+
+	  </div>
+
+    </main>
+
+ <footer>
+    <div class="foot">
+      <p> &copy; PT Starch Solution, Intl.<br /> All Rights Reserved. Website Designed by Hershey's Snack Bites </p>
+
+	  <span class="facebook"><a href="https://www.google.com"><img src="Images/facebook.png" class="socialPic" ></a></span>
+	  <span class="facebook"><a href="https://www.google.com"><img src="Images/google.png" class="socialPic" ></a></span>
+	  <span class="facebook"><a href="https://www.google.com"><img src="Images/linked.png" class="socialPic" ></a></span>
+
+	</div>
+  </footer>
+
+
+</body>
+
+</html>

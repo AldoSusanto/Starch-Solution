@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Starch Solution Internasional</title>
+<link rel="stylesheet" href="Styles/normalize.css">
+<link rel="stylesheet" href="Styles/default.css">
+<link rel="stylesheet" href="Styles/product.css">
+</head>
+<body>
+  <div class="menuBar">
+    <div class="logo">
+      <a href="home.html"><img src="Images/logo.png" style="width:400px;height:70px;"></a>
+    </div>
+    <ul class="menu">
+      <li class="dropdownMaster">
+  <a onmouseover="showDropdown()" onmouseout="hideDropdown()" class="dropbtn" href="about.html">About Us</a>
+      <div id="dropdown" class="dropdownContent" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+        <a href="missionAndVision.html">Mission and Vision</a>
+        <a href="coreValues.html">Core Values</a>
+        <a href="principles.html">Principles</a>
+      </div></li>
+      <li><a href="product.html" >Our Products</a></li>
+  <li><a href="" >Quality Standard</a></li>
+      <li><a href="" >CSR</a></li>
+      <li><a href="" >Newsletter</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <script>
+  function showDropdown(){
+    document.getElementById("dropdown").classList.toggle("show");
+    }
+
+    function hideDropdown(){
+    var dropdowns = document.getElementsByClassName("dropdownContent");
+      var i;
+      for(i=0; i < dropdowns.length;i++){
+      if(dropdowns[i].classList.contains('show')){
+        dropdowns[i].classList.remove('show');
+      }
+      }
+    }
+  </script>
+
+  <div class="titlee">
+      <h2>Our Products</h2>
+      <div class="line"></div>
+  </div>
+
+  <div class="prodPage1">
+    <img src="Images/solsacat.png" class = "prodPic1">
+    <div class = "DescBox1">
+      <h1>Solsacat - CS</h1>
+      <p>SOLSACAT - CS series is a recent innovation of modified tapioca starch which be developed  by PT. Starch Solution Internasional, used for widely spread over many applications in non-food industry e.g. used as a thickening agent in a construction material based upon gypsum or cement; used in the textile industry as component for ink; as a thermo stable drilling fluid for the oil industry; suitably be used in paper sack adhesive and for improving retention paper application especially paper machine which have higher speed.</p>
+    </div>
+  </div>
+
+  <div class="prodPage2">
+    <img src="Images/solsacoat.png" class = "prodPic2">
+    <div class = "DescBox2">
+      <h1>Solsacoat</h1>
+      <p>Generally, to get cost reduction in the coating process, some mill paper have increased production speed and increased number or part  of coating starch added into system. Our products can be used with all common coating ingredients,and also have some benefits as below:</p>
+      <ul>
+        <li>As Co-binder in Coating formulation</li>
+        <li>Printability improvement</li>
+        <li>Optimal run ability a high speed</li>
+        <li>Less downtime</li>
+        <li>Water retention improvement</li>
+        <li>Cost Reduction</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="prodPage1">
+    <img src="Images/solsatex.png" class ="prodPic1">
+    <div class = "DescBox1">
+      <h1>Solsatex</h1>
+      <p>SOLSATEX series is a sizing agent for spun yarns, and have a number of typical properties:</p>
+      <ul>
+        <li>Stable solution, even at room temperature</li>
+        <li>Minimal dust and fiber resulting in higher sticking power</li>
+        <li>High abrasion resistance for the yarn which provides higher weaving efficiency</li>
+        <li>Provides flexible film</li>
+        <li>Compatible with other sizing agents</li>
+        <li>Can be removed easily from fabrics with enzymes</li>
+      </ul>
+    </div>
+  </div>
+
+<footer>
+   <div class="foot">
+     <p> &copy; PT Starch Solution, Intl.<br /> All Rights Reserved. Website Design by Hershey's Snack Bites (LOL) </p>
+
+   <span class="facebook"><a href="https://www.google.com"><img src="Images/facebook.png" class="socialPic" ></a></span>
+   <span class="facebook"><a href="https://www.google.com"><img src="Images/google.png" class="socialPic" ></a></span>
+   <span class="facebook"><a href="https://www.google.com"><img src="Images/linked.png" class="socialPic" ></a></span>
+
+ </div>
+ </footer>
+
+
+</body>
+
+</html>

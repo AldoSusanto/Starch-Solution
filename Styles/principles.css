@@ -1,0 +1,72 @@
+@font-face {
+  font-family: gotham;
+  src:url(Gotham-Medium.otf);
+}
+
+.content{
+  margin-top: 0px;
+}
+
+.aboutUsTitle h2{
+  font-size: 30px;
+}
+
+.wholeContent{
+  padding-right: 180px;
+}
+
+.image img{
+  height: 400px;
+  width: 1400px;
+}
+.image{
+  margin-top: 50px;
+  text-align: center;
+}
+.content p{
+  text-align: left;
+  font-size: 16px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-bottom: 50px;
+  margin-top: 8px;
+}
+
+.content h3{
+  font-size: 20px;
+  text-align: left;
+  color: #3a892a;
+  margin-bottom: 0px;
+}
+
+.content ul{
+
+	list-style-type: disc;
+	margin-left: 15px;
+	padding-left: 0px;
+	margin-bottom: 30px;
+}
+
+.content li{
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.content li a{
+	text-decoration: none;
+	color: #3a892a;
+}
+
+.content li a:hover{
+	font-weight: bolder;
+}
+
+.green{
+	color: #3a892a;
+	font-weight: bolder;
+}
+
+.content img{
+	margin-top: 20px;
+	height: 70px;
+	width: auto;
+}

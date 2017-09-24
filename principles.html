@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>About Us</title>
+<link rel="stylesheet" href="Styles/normalize.css">
+<link rel="stylesheet" href="Styles/aboutStyle.css">
+<link rel="stylesheet" href="Styles/principles.css">
+</head>
+<body>
+  <div class="viewPort">
+    <div class="menuBar">
+      <div class="logo">
+        <a href="home.html"><img src="Images/logo.png" style="width:400px;height:70px;"></a>
+      </div>
+      <ul class="menu">
+        <li class="dropdownMaster">
+		<a onmouseover="showDropdown()" onmouseout="hideDropdown()" class="dropbtn" href="about.html">About Us</a>
+        <div id="dropdown" class="dropdownContent" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+          <a href="missionAndVision.html">Mission and Vision</a>
+          <a href="coreValues.html">Core Values</a>
+          <a href="principles.html">Principles</a>
+        </div></li>
+        <li><a href="product.html" >Our Products</a></li>
+		<li><a href="" >Quality Standard</a></li>
+        <li><a href="" >CSR</a></li>
+        <li><a href="" >Newsletter</a></li>
+        <li><a href="contact.html" >Contact Us</a></li>
+      </ul>
+    </div>
+
+	<script>
+	function showDropdown(){
+		document.getElementById("dropdown").classList.toggle("show");
+	  }
+
+	  function hideDropdown(){
+		var dropdowns = document.getElementsByClassName("dropdownContent");
+		  var i;
+		  for(i=0; i < dropdowns.length;i++){
+			if(dropdowns[i].classList.contains('show')){
+			  dropdowns[i].classList.remove('show');
+			}
+		  }
+		}
+	</script>
+
+
+  <!---------------------------------------------------------------------------------------------------------------->
+	<main>
+	  <div class="image">
+	    <img src="Images/AboutUsCover.jpg" border="3">
+	  </div>
+
+	  <div class="wholeContent">
+
+	    <div class="aboutButton">
+
+        <div class="aboutUsTitle">
+          <h2>Principles</h2>
+        </div>
+  		  <ul>
+        <li><a href="about.html" >About Us</a></li>
+  			<li><a href="missionAndVision.html" >Mission and Vision</a></li>
+  			<li><a href="coreValues.html" >Core Values</a></li>
+  		  </ul>
+	    </div>
+
+		<div class="content">
+
+		  <p>Our principles are fundamental to <span class="green">success</span>. They focus on how we <span class="green">strengthen</span>, <span class="green">secure</span>, and <span class="green">develop</span> our
+			company over time. Adhering to these principles is how we will achieve our vision, &quotTo create share
+			value added to all customers and establish our position as the main supplier for Modified Tapioca Starch
+			products&quot . We cannot guarantee positive outcomes or risk-free results, from time to time, we may fall
+			shorts in our efforts, and if that happens, we will <span class="green">renew our commitment to these principles</span>, and <span class="green">re-double our efforts</span>.
+			What we can promise is to be <span class="green">truthful</span> and provide <span class="green">honest</span> assessment of our business and prospects. We will operate with resolve to make the organization in which our clients,
+			employees, shareholders, and communities can be proud of.
+			</p>
+		  <h3>Our Business Principles</h3>
+		  <ul>
+			<li>Quality</li>
+			<li>Consistency</li>
+			<li>Sustainable Environment</li>
+			<li>Social Welfare</li>
+			<li>Exceptional Client Service</li>
+			<li>Operational Excellence</li>
+			<li>A Commitment to <a href="coreValues.html" >Our Values</a></li>	<!-- create hyperlink to core values -->
+			<li>A Great Team and Winning Culture</li>
+		  </ul>
+
+		  <h3>Documents</h3>
+		  <a href="blank.pdf"> <img src="Images/pdf.png"> </a>
+		</div>
+
+
+	  </div>
+
+    </main>
+
+ <footer>
+    <div class="foot">
+      <p> &copy; PT Starch Solution, Intl.<br /> All Rights Reserved. Website Designed by Hershey's Snack Bites </p>
+
+	  <span class="facebook"><a href="https://www.google.com"><img src="Images/facebook.png" class="socialPic" ></a></span>
+	  <span class="facebook"><a href="https://www.google.com"><img src="Images/google.png" class="socialPic" ></a></span>
+	  <span class="facebook"><a href="https://www.google.com"><img src="Images/linked.png" class="socialPic" ></a></span>
+
+	</div>
+  </footer>
+
+
+</body>
+
+</html>

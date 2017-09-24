@@ -1,0 +1,117 @@
+/* -- Title -- */
+
+
+.titlee{
+	text-align: center;
+	font-size: 28px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+	color: #404040;
+  margin-top: 50px;
+}
+.titlee h2{
+	margin-bottom: 0px;
+}
+
+.line{
+	border-top: 2px double #00994d;
+	border-top-width: medium;
+	width: 120px;
+	margin: 0px auto 40px auto;
+	text-align: center;
+	border-width: 4.5px;
+  margin-bottom: 0px;
+}
+
+ /* ---- Products ----*/
+
+
+
+.prodPage1{
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 10px;
+  display: block;
+}
+
+.prodPage2{
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 10px;
+  display: block;
+  background-color: #f2f2f2;
+}
+
+.prodPic1 {
+  vertical-align: top;
+  float: left;
+  height: 300px;
+  Width :258px;
+  margin-left: 130px;
+  margin-top: 80px;
+}
+.prodPic2 {
+  vertical-align: top;
+  float: right;
+  height: 300px;
+  Width :258px;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+
+
+.descBox1{
+  width: 700px;
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 15px;
+  position: absolute;
+  right: 150px;
+  top: 75px;
+}
+
+.descBox1 h1{
+  color: #3a892a;
+  font-size: 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.descBox2 h1{
+  color: #3a892a;
+  font-size: 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.descBox1 p{
+  line-height: 30px;
+  font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.descBox2 p{
+  line-height: 30px;
+	font-size: 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.descBox1 li{
+  line-height: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.descBox2 li{
+  line-height: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.descBox2{
+  width: 700px;
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 15px;
+  position: absolute;
+  left: 150px;
+  top: 25px;
+}

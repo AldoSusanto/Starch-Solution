@@ -1,0 +1,36 @@
+@font-face {
+  font-family: gotham;
+  src:url(Gotham-Medium.otf);
+}
+
+.content{
+  margin-top: 10px;
+}
+
+.aboutUsTitle h2{
+  font-size: 30px;
+}
+
+.wholeContent{
+  padding-right: 180px;
+}
+.image img{
+  height: 400px;
+  width: 1400px;
+}
+.image{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.content p{
+  text-align: center;
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.content h3{
+  font-size: 24px;
+  text-align: center;
+  color: #3a892a;
+}
